@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form With Semantic HTML</title>
+    <link href="styles.css" rel="stylesheet">
+       
+       
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h1 id="heading">Welcome!</h1>
+                <p id="description">This is a responsive design demonstration.</p>
+                </div>
+            </div>
+        <!--my comment goes here-->
+        <section>
+            <h2>image in HTML</h2>
+            <img src="image.jpg" alt="A descriptive image">
+            </div>
+        </section> 
+        <!--Flexbox Example-->
+    <div class="flex-container">
+        <div class="flex-item">Flex Item 1 </div>
+        <div class="flex-item">Flex Item 2 </div>
+        <div class="flex-item">Flex Item 3 </div>
+        </div>
+   
+        <!-- CSS Grid Exampl--> 
+        <div class="grid-container">
+          <div class="grid-item">Grid Item 1 </div>
+          <div class="grid-item">Grid Item 2 </div>
+          <div class="grid-item">Grid Item 3 </div>
+          </div>
+        <section>
+            <audio controls>
+                <source src="/c:\Users\HP\Downloads\dj_snake_let_me_love_you_ft._justin_bieber_mp3_36235.mp3">
+
+            <section>
+                <video controls width="400" height="300">
+                    <source src="https://youtu.be/PPUXkOJYb98">
+                </video>
+
+            <section>
+                <h2>Embedding External Content</h2>
+                <iframe width="560" height="315" 
+                src="https://youtu.be/t5EhsXZwn4o?si=7Z_s3DFVZ66pmVCr" frameborder="0" allowfullscreen>
+            </iframe>
+            </section>
+            <iframe width="100" height="166"
+            scrolling="no" frameborder="no"
+            allow="autoplay" src="https://soundcloud.com/liltecca/500lbs?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"></iframe>
+
+        </section>
+    <h1>Form With Semantic HTML</h1>
+
+    <form>
+    <section>
+        <label for="email">Email:</label>
+        <input type="text" id="email" id="fullName" name="fullName"  required>
+       
+    <section>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        </section>
+
+        <section>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required> 
+            </section>
+
+            <section>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    </section>
+
+                    <section>
+                        <label>
+                            <input type="checkbox" id="newsletter" name="newsletter"> 
+                            Subscribe to Newsletter
+                            </label>
+                            </section>
+
+                            <section>
+                                <label for="comments">Comments:</label>
+                                <textarea name="commentsc" id="comments" rows="10"></textarea>
+                                </section>
+
+                                <button type="submit"></button>
+                            
+                                
+</form>
+
+</body>
+</html>
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+aside {
+    flex: 1;
+    border-left: 1px solid blue;
+    background-color: blueviolet;
+  }
+  header, main, aside, footer {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+  .container {
+    display: flex;
+  }
+main {
+    flex: 2;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.flex-item{
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.grid-item{
+  background-color: #2ecc71;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.grid-item{
+  background-color: #0e5e2f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+Comment Code
+.container {
+  display: flex;
+  width: 80;
+  margin: 0 auto;
+
+}
+comment Code
+.content { 
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+/* Default styles */
+comment code
+#heading {
+  color: #333;
+}
+comment code
+#description {
+  color: #666;
+}
+/* Media queries */
+@media screen and ( max-width: 768x) {
+#heading {
+  font: size 24px;
+}
+  
+}
+comment code
+#description {
+  font: size 16px;
+}
+@media screen and (max-width: 480px) {
+    #heading {
+      font-size: 20px;
+    }
+  }
+  comment code
+  #decription {
+    font-size: 14px;
+  }
+    
+  
+              
