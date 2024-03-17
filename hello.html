@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Form with Semantic HTML</h1>
+    </header>
+      
+    <div class="container">
+      
+        <main>
+
+            <fieldset>
+                <legend align="left">Personal Information</legend>
+
+                <section>
+                    <label align="left" for="content_txtName" id="content_lblName"> Full Name:</label>
+                    <span id="content_RequiredFieldValidator1" class="validate" style="visibility:hidden;">*</span>
+                    <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+                </section>
+
+                <section>
+                    <label align="left" for="content_txtName" id="content_lblName"> Email:</label>
+                    <span id="content_RequiredFieldValidator1" class="validate" style="visibility:hidden;">*</span>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </section>
+
+                <section>
+                    <label align="left" for="content_txtName" id="content_lblName"> Password:</label>
+                    <span id="content_RequiredFieldValidator1" class="validate" style="visibility:hidden;">*</span>
+                    <input type="Password" id="Password" name="Password" placeholder="Password" required>
+                </section>
+
+                <section>
+                    <label align="left" for="content_drpSector" id="content_lblSector">Gender</label>
+                        <select name="gender" id="Gender" class="Gender">
+		<option value="">Select</option>
+		<option value="Male">Male</option>
+		<option value="Female">Female</option>
+		<option value="Other">Other</option>
+	</select>
+                </section>
+            </fieldset>
+            
+               
+            <fieldset>
+                <legend align="left">Additional Information</legend>
+
+                <section>
+                    <label align="left">
+                        Subscribe to Newsletter
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </label>
+                </section>
+
+            <section>
+                            <label align="left" for="content_txt19" id="content_lbl19">Any more comments?</label>
+                            <textarea name="ctl00$content$txt19" rows="3" cols="20" id="content_txt19" class="form-control" placeholder="Any more comments?"></textarea>
+            </section>
+            </fieldset>
+
+              </main>
+        <aside>
+            <p>This is my side bar</p>
+            <div></div>
+        </aside>
+</div>
+<!--my comment goes here-->
+<section>
+    <h2>Images in HTML</h2>
+    <img src="https://png.pngtree.com/background/20230419/original/pngtree-website-technology-light-effect-space-background-picture-image_2448023.jpg"
+     alt="A Descriptive Image" width="100%">
+</section>
+
+<section>
+    <video controls width="100%" height="600">
+        <source src="/video.mp4" type="video/mp4">
+    </video>    
+    </section>
+
+<section>
+    <audio controls>
+        <source src="/audio.mp3" type="audio/mp3">
+    </audio>
+</section>
+
+<section>
+    <h2>Embedding External Content</h2>
+    <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=aZ5EsdnpLMI" frameborder="0" allowfullscreen>
+    </iframe>
+</section>
+
+<section>
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" 
+    src="https://soundcloud.com/fastfunk-requested/lil-durk-when-we-shoot-fast?si=1f6b84a6984543a3a09cef98f9b3a903&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"></iframe>
+</section>
+
+<footer>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+  /* Basic CSS styling for illustration purposes */
+  body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+form
+{
+    max-width: 150px;
+    margin: 40px;
+}
+label
+{
+    display: block;
+    margin-bottom: 8px;
+}
+input,
+select,
+textarea
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+header, main, footer
+{
+padding: 20px;
+text-align: center;
+background-image: url(matrix.jpeg);
+color: white;
+}
+.container
+{
+    display: flex;
+}
+main
+{
+    flex: 2;
+}
+aside
+{
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    border-left: 1px solid gray;
+    background-color:gray;
+}
